@@ -3,22 +3,38 @@
 Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models.
 
 <p align="center">
-  <img src="images/study_area_disaster_damage_made.png" alt="Study Area" width="600"/>
+  <img src="images/study_area_disaster_damage_made.png" alt="Study Area Map" width="600"/>
 </p>
 
 ---
 
 ## 📌 Introduction
 
-This project aims to enhance disaster damage perception and localization through **bi-temporal street-view imagery** (before and after disaster events). We leverage **pre-trained vision and vision-language models** (e.g., Swin Transformer and ConvNeXt, GPT-4o) to analyze fine-grained street-level damage in a hyperlocal context.
+This repository presents a novel framework for **bi-temporal street-view image analysis**, aimed at advancing hyperlocal disaster damage assessment. We integrate **pre- and post-disaster imagery** using **pre-trained vision and vision-language models** to classify and localize disaster impact more accurately.
 
-Key contributions include:
-（1）Dual-channel model for damage assessment using bi-temporal street-view images.
-（2）The dataset includes 2,249 labeled pre/post-disaster street-view image pairs.
-（3）Outperforms baseline: Our model improves accuracy from 66.14% to 77.11%.
-（4）Grad-CAM confirms the benefits of adding pre-disaster context for model focus.
-（5）Enables rapid hyperlocal damage assessment for resilient city planning.
+### 🔍 Key Contributions
 
+- ✅ **Dual-channel model** for fusing pre- and post-disaster street-view images.
+- 📸 **2,249 labeled street-view image pairs**, annotated with fine-grained disaster impact.
+- 📈 **Performance**: Accuracy improved from 66.14% (post-only) to 77.11% (bi-temporal).
+- 🔥 **Grad-CAM visualization** confirms the added value of pre-disaster imagery for model focus.
+- 🏙️ Enables **rapid and fine-grained damage mapping**, supporting climate-resilient urban planning.
+
+---
+
+## 📂 Dataset
+
+You can access the **bi-temporal street-view disaster dataset** from the following DOI:
+
+> 📁 Yang, Yifan (2025).  
+> *Perceiving Multidimensional Disaster Damages from Street–View Images Using Visual–Language Models*.  
+> figshare. Dataset. https://doi.org/10.6084/m9.figshare.28801208.v2
+
+The dataset includes:
+- Pre- and post-disaster images
+- Location and damage type annotations
+- Severity scores (minor, moderate, severe)
+- Sample image regions from Horseshoe Beach, Florida after Hurricane Idalia and Milton
 
 ---
 
@@ -30,20 +46,21 @@ Key contributions include:
 
 ---
 
-## 📁 Repository Structure
+## 🗂 Repository Structure
 
 ```bash
 BiTemporal-StreetView-Damage/
 │
-├── codes/                          # Source code for model implementation and experiments
-├── images/                         # Figures and illustrations
+├── codes/                          # Model training and evaluation scripts
+├── images/                         # Project figures
 │   ├── study_area_disaster_damage_made.png
-│   ├── architect1.drawio_1.png
-│   ├── design_experiment.drawio_1.png
-│   ├── dual_channel.drawio_2.png
+│   ├── architect1.drawio (1).png
+│   ├── design experiment.drawio (1).png
+│   ├── dual_channel.drawio (2).png
 │   ├── 0204-06.png
-│   └── ...
+│   ├── readme.txt
 ├── LICENSE
 ├── README.md
 └── .gitignore
+
 
