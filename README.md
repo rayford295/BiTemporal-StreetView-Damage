@@ -3,7 +3,7 @@
 Hyperlocal disaster damage assessment using bi-temporal street-view imagery and pre-trained vision models.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rayford295/BiTemporal-StreetView-Damage/main/images/study_area_disaster%20damage_made.png" alt="Study Area Map" width="600"/>
+  <img src="https://github.com/rayford295/BiTemporal-StreetView-Damage/blob/main/images/dual_channel.drawio%20(2).png" alt="Study Area Map" width="600"/>
 </p>
 
 
