@@ -21,6 +21,11 @@ This repository presents a novel framework for **bi-temporal street-view image a
 - 🔥 **Grad-CAM visualization** confirms the added value of pre-disaster imagery for model focus.
 - 🏙️ Enables **rapid and fine-grained damage mapping**, supporting climate-resilient urban planning.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rayford295/BiTemporal-StreetView-Damage/main/images/dual_channel.drawio%20(2).png" alt="Dual-Channel Architecture" width="600"/>
+</p>
+
+<p align="center"><i>Figure: Dual-channel architecture for bi-temporal disaster damage assessment.</i></p>
 ---
 
 ## 📂 Dataset
